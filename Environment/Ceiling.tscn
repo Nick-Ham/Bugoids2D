@@ -1,0 +1,41 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Environment/Chain.tscn" type="PackedScene" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://guts.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 301.597, 48.9486 )
+
+[node name="Ceiling" type="StaticBody2D"]
+collision_layer = 16
+collision_mask = 0
+
+[node name="This architecture" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( -16.1459, 0 )
+scale = Vector2( 24.0135, 1.47957 )
+texture = ExtResource( 2 )
+
+[node name="makes 0 sense" type="Sprite" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( -2.64679, 400 )
+scale = Vector2( 23.9792, 1.47957 )
+texture = ExtResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource( 1 )
+
+[node name="Chain" parent="." instance=ExtResource( 1 )]
+position = Vector2( 0.592712, 42.4865 )
+
+[node name="PinJoint2D" type="PinJoint2D" parent="."]
+position = Vector2( 0, 42.9463 )
+node_a = NodePath("..")
+node_b = NodePath("../Chain/Link")
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 7.02355, 334.288 )
+scale = Vector2( 5.06128, 5.06128 )
+texture = ExtResource( 3 )

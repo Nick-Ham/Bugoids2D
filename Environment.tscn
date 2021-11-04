@@ -1,0 +1,170 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Bugoid/Bugoid.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Environment/Ceiling.tscn" type="PackedScene" id=2]
+[ext_resource path="res://icon.png" type="Texture" id=3]
+
+[node name="Environment" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 538.994, 645.902 )
+scale = Vector2( 20.739, 20.739 )
+texture = ExtResource( 3 )
+
+[node name="Ceiling" parent="." instance=ExtResource( 2 )]
+position = Vector2( 531.779, 84.1323 )
+
+[node name="Bugoid" parent="." instance=ExtResource( 1 )]
+position = Vector2( 395.997, 227.4 )
+
+[node name="Bugoid3" parent="." instance=ExtResource( 1 )]
+position = Vector2( 376.397, 257.245 )
+
+[node name="Bugoid4" parent="." instance=ExtResource( 1 )]
+position = Vector2( 409.806, 298.672 )
+
+[node name="Bugoid5" parent="." instance=ExtResource( 1 )]
+position = Vector2( 339.871, 284.418 )
+
+[node name="Bugoid2" parent="." instance=ExtResource( 1 )]
+position = Vector2( 341.194, 330 )
+
+[node name="Bugoid6" parent="." instance=ExtResource( 1 )]
+position = Vector2( 349.225, 230.518 )
+
+[node name="Bugoid7" parent="." instance=ExtResource( 1 )]
+position = Vector2( 329.625, 260.363 )
+
+[node name="Bugoid8" parent="." instance=ExtResource( 1 )]
+position = Vector2( 363.034, 301.79 )
+
+[node name="Bugoid9" parent="." instance=ExtResource( 1 )]
+position = Vector2( 293.098, 287.536 )
+
+[node name="Bugoid10" parent="." instance=ExtResource( 1 )]
+position = Vector2( 294.421, 333.118 )
+
+[node name="Bugoid11" parent="." instance=ExtResource( 1 )]
+position = Vector2( 297.998, 231.854 )
+
+[node name="Bugoid12" parent="." instance=ExtResource( 1 )]
+position = Vector2( 278.399, 261.7 )
+
+[node name="Bugoid13" parent="." instance=ExtResource( 1 )]
+position = Vector2( 311.807, 303.126 )
+
+[node name="Bugoid14" parent="." instance=ExtResource( 1 )]
+position = Vector2( 241.872, 288.872 )
+
+[node name="Bugoid15" parent="." instance=ExtResource( 1 )]
+position = Vector2( 243.195, 334.454 )
+
+[node name="Bugoid16" parent="." instance=ExtResource( 1 )]
+position = Vector2( 583.531, 274.172 )
+
+[node name="Bugoid17" parent="." instance=ExtResource( 1 )]
+position = Vector2( 563.932, 304.017 )
+
+[node name="Bugoid18" parent="." instance=ExtResource( 1 )]
+position = Vector2( 597.34, 345.444 )
+
+[node name="Bugoid19" parent="." instance=ExtResource( 1 )]
+position = Vector2( 527.405, 331.19 )
+
+[node name="Bugoid20" parent="." instance=ExtResource( 1 )]
+position = Vector2( 528.728, 376.772 )
+
+[node name="Bugoid21" parent="." instance=ExtResource( 1 )]
+position = Vector2( 606.695, 290.654 )
+
+[node name="Bugoid22" parent="." instance=ExtResource( 1 )]
+position = Vector2( 587.095, 320.499 )
+
+[node name="Bugoid23" parent="." instance=ExtResource( 1 )]
+position = Vector2( 620.504, 361.926 )
+
+[node name="Bugoid24" parent="." instance=ExtResource( 1 )]
+position = Vector2( 550.568, 347.671 )
+
+[node name="Bugoid25" parent="." instance=ExtResource( 1 )]
+position = Vector2( 551.891, 393.254 )
+
+[node name="Bugoid26" parent="." instance=ExtResource( 1 )]
+position = Vector2( 631.64, 290.208 )
+
+[node name="Bugoid27" parent="." instance=ExtResource( 1 )]
+position = Vector2( 612.04, 320.053 )
+
+[node name="Bugoid28" parent="." instance=ExtResource( 1 )]
+position = Vector2( 645.449, 361.48 )
+
+[node name="Bugoid29" parent="." instance=ExtResource( 1 )]
+position = Vector2( 575.513, 347.226 )
+
+[node name="Bugoid30" parent="." instance=ExtResource( 1 )]
+position = Vector2( 576.836, 392.808 )
+
+[node name="Bugoid31" parent="." instance=ExtResource( 1 )]
+position = Vector2( 203.346, 408.159 )
+
+[node name="Bugoid32" parent="." instance=ExtResource( 1 )]
+position = Vector2( 183.746, 438.005 )
+
+[node name="Bugoid33" parent="." instance=ExtResource( 1 )]
+position = Vector2( 365.591, 197.701 )
+
+[node name="Bugoid34" parent="." instance=ExtResource( 1 )]
+position = Vector2( 345.991, 227.546 )
+
+[node name="Bugoid35" parent="." instance=ExtResource( 1 )]
+position = Vector2( 379.4, 268.973 )
+
+[node name="Bugoid36" parent="." instance=ExtResource( 1 )]
+position = Vector2( 309.465, 254.719 )
+
+[node name="Bugoid37" parent="." instance=ExtResource( 1 )]
+position = Vector2( 310.788, 300.301 )
+
+[node name="Bugoid38" parent="." instance=ExtResource( 1 )]
+position = Vector2( 318.819, 200.819 )
+
+[node name="Bugoid39" parent="." instance=ExtResource( 1 )]
+position = Vector2( 299.219, 230.664 )
+
+[node name="Bugoid40" parent="." instance=ExtResource( 1 )]
+position = Vector2( 332.628, 272.091 )
+
+[node name="Bugoid41" parent="." instance=ExtResource( 1 )]
+position = Vector2( 262.692, 257.837 )
+
+[node name="Bugoid42" parent="." instance=ExtResource( 1 )]
+position = Vector2( 264.015, 303.419 )
+
+[node name="Bugoid43" parent="." instance=ExtResource( 1 )]
+position = Vector2( 267.592, 202.155 )
+
+[node name="Bugoid44" parent="." instance=ExtResource( 1 )]
+position = Vector2( 247.993, 232.001 )
+
+[node name="Bugoid45" parent="." instance=ExtResource( 1 )]
+position = Vector2( 281.401, 273.427 )
+
+[node name="Bugoid46" parent="." instance=ExtResource( 1 )]
+position = Vector2( 211.466, 259.173 )
+
+[node name="Bugoid47" parent="." instance=ExtResource( 1 )]
+position = Vector2( 212.789, 304.756 )
+
+[node name="Bugoid48" parent="." instance=ExtResource( 1 )]
+position = Vector2( 553.125, 244.473 )
+
+[node name="Bugoid49" parent="." instance=ExtResource( 1 )]
+position = Vector2( 533.526, 274.318 )
+
+[node name="Bugoid50" parent="." instance=ExtResource( 1 )]
+position = Vector2( 566.934, 315.746 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 532.947, 282.222 )
+current = true
+zoom = Vector2( 0.6, 0.6 )
