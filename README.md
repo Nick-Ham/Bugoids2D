@@ -6,3 +6,7 @@ This is a very simple implementation of 2d Boids in Godot. There are some minor 
 ![readmeimage](readmeimage.PNG)
 
 
+
+
+https://user-images.githubusercontent.com/25405943/228626773-7a99dfc2-e3c4-4542-81ca-efcb2d33576f.mp4
+
